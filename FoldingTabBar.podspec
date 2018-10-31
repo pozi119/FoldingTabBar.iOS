@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
-  spec.name = "FoldingTabBar"
-  spec.version = '1.2.1'
+  spec.name = "FoldingTabBar.Valo"
+  spec.version = '1.2.2'
 
-  spec.homepage = "https://github.com/Yalantis/FoldingTabBar.iOS"
+  spec.homepage = "https://github.com/pozi119/FoldingTabBar.iOS"
   spec.summary = "Folding Tab Bar and Tab Bar Controller"
 
   spec.author = "Yalantis"
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, '7.0'
   spec.ios.deployment_target = '7.0'
 
-  spec.source = { :git => "https://github.com/Yalantis/FoldingTabBar.iOS.git", :tag => spec.version }
+  spec.source = { :git => "https://github.com/pozi119/FoldingTabBar.iOS.git", :tag => spec.version }
 
   spec.requires_arc = true
 

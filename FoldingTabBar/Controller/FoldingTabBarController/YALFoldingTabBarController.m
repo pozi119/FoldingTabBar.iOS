@@ -14,32 +14,6 @@
 
 @implementation YALFoldingTabBarController
 
-#pragma mark - Initialization
-
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        [self setupTabBarView];
-    }
-    return self;
-}
-
-- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        [self setupTabBarView];
-    }
-    return self;
-}
-
-- (instancetype)initWithCoder:(NSCoder *)aDecoder {
-    self = [super initWithCoder:aDecoder];
-    if (self) {
-        [self setupTabBarView];
-    }
-    return self;
-}
-
 #pragma mark - View & LifeCycle
 
 - (void)viewDidLoad {
@@ -79,13 +53,15 @@
 
 #pragma mark - Private
 
-- (void)setupTabBarView {
-    for (UIView *view in self.tabBar.subviews) {
-        [view removeFromSuperview];
+- (YALFoldingTabBar *)tabBarView{
+    if (!_tabBarView) {
+        for (UIView *view in self.tabBar.subviews) {
+            [view removeFromSuperview];
+        }
+        _tabBarView = [[YALFoldingTabBar alloc] initWithController:self];
+        [self.tabBar addSubview:_tabBarView];
     }
-    
-    self.tabBarView = [[YALFoldingTabBar alloc] initWithController:self];
-    [self.tabBar addSubview:self.tabBarView];
+    return _tabBarView;
 }
 
 - (id<YALTabBarDelegate>)currentInteractingViewController {

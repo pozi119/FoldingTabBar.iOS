@@ -27,7 +27,6 @@
 		A502DF6B1FC5C5DD0050A3E7 /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A502DF541FC5C5DD0050A3E7 /* YALAnimatingTabBarConstants.m */; };
 		A502DF6C1FC5C5DD0050A3E7 /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A502DF581FC5C5DD0050A3E7 /* YALFoldingTabBarController.m */; };
 		A502DF6D1FC5C5DD0050A3E7 /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A502DF5C1FC5C5DD0050A3E7 /* YALTabBarItem.m */; };
-		A502DF6E1FC5C5DD0050A3E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A502DF5F1FC5C5DD0050A3E7 /* Info.plist */; };
 		A502DF6F1FC5C5DD0050A3E7 /* YALCustomHeightTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A502DF631FC5C5DD0050A3E7 /* YALCustomHeightTabBar.m */; };
 		A502DF701FC5C5DD0050A3E7 /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A502DF661FC5C5DD0050A3E7 /* YALFoldingTabBar.m */; };
 /* End PBXBuildFile section */
@@ -69,7 +68,6 @@
 		A502DF5B1FC5C5DD0050A3E7 /* YALTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALTabBarItem.h; sourceTree = "<group>"; };
 		A502DF5C1FC5C5DD0050A3E7 /* YALTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALTabBarItem.m; sourceTree = "<group>"; };
 		A502DF5E1FC5C5DD0050A3E7 /* FoldingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingTabBar.h; sourceTree = "<group>"; };
-		A502DF5F1FC5C5DD0050A3E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A502DF621FC5C5DD0050A3E7 /* YALCustomHeightTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALCustomHeightTabBar.h; sourceTree = "<group>"; };
 		A502DF631FC5C5DD0050A3E7 /* YALCustomHeightTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALCustomHeightTabBar.m; sourceTree = "<group>"; };
 		A502DF651FC5C5DD0050A3E7 /* YALFoldingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALFoldingTabBar.h; sourceTree = "<group>"; };
@@ -367,7 +365,6 @@
 			isa = PBXGroup;
 			children = (
 				A502DF5E1FC5C5DD0050A3E7 /* FoldingTabBar.h */,
-				A502DF5F1FC5C5DD0050A3E7 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -462,7 +459,6 @@
 				3EDA444A1AC5667500AE33CD /* LaunchScreen.xib in Resources */,
 				3EDA44421AC5667500AE33CD /* Proxima Nova Regular.otf in Resources */,
 				3EDA443D1AC5667500AE33CD /* Images.xcassets in Resources */,
-				A502DF6E1FC5C5DD0050A3E7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
